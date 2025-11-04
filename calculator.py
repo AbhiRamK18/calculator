@@ -11,7 +11,7 @@ def equal():
         T.insert(t.END,"ERROR")
 def clear():
     T.delete(0,t.END)
-root=t.TK()
+root=t.Tk()
 root.title("Calculator")
 root.geometry("300x400")
 T=t.Entry(root,font=("Arial",18),bd=10,insertwidth=2,width=14,borderwidth=4,justify='right')
